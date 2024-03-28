@@ -12,11 +12,30 @@ To run Rodeo locally, you need [NodeJS](https://nodejs.org/) and [PostgreSQL](ht
 
 ## macOS
 
-The recommended way to install NodeJS and PostgreSQL on macOS is through [Homebrew](https://brew.sh/). After installing Homebrew, you can run `brew install node@18 postgresql@15`. Homebrew should inform you about adding the PostgreSQL utilities to your PATH with a command like:
+Previous documentation recommended using Homebrew to install NodeJS and PostgreSQL. However, this is no longer recommended as it can lead to issues with permissions and PATHs. Instead, we recommend using [NVM] (Node Version Manager) for install management and using v20 for NodeJS.
+Install using NVM (Node Version Manager) and Homebrew (package manager for macOS)
+Run the following commands in your terminal:
+
+# Install NVM (Node Version Manager)
+
+brew install nvm
+nvm install 20
+nvm use 20
+
+This will install NVM and NodeJS v20. Next, install PostgreSQL v15 and add the PostgreSQL utilities to your PATH so you can use the createdb utility. Finally, run brew services start postgresql@15 to boot PostgreSQL as a background process.
+brew install postgresql@15
+echo 'export PATH="/usr/local/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc
+
+brew services start postgresql@15
+createdb rodeo-development
+
+<!-- ## macOS
+
+The recommended way to install NodeJS and PostgreSQL on macOS is through [Homebrew](https://brew.sh/). After installing Homebrew, you can run `brew install node@20 postgresql@15`. Homebrew should inform you about adding the PostgreSQL utilities to your PATH with a command like:
 
 `echo 'export PATH="/usr/local/opt/postgresql@15/bin:$PATH"' >> ~/.zshrc`
 
-Run this so that you can use the `createdb` utility. Finally, run `brew services start postgresql@15` to boot PostgreSQL as a background process.
+Run this so that you can use the `createdb` utility. Finally, run `brew services start postgresql@15` to boot PostgreSQL as a background process. -->
 
 ## Windows
 
