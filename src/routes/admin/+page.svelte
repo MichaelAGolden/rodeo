@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Admin - Admissions</title>
+	<title>RiverHacks | Admin - Admissions</title>
 </svelte:head>
 
 <form

@@ -20,7 +20,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Home</title>
+	<title>RiverHacks | Home</title>
 </svelte:head>
 
 <div class="topographic-background">
@@ -60,11 +60,11 @@
 <section id="Sponsors">
 	<Sponsors
 		sponsors={[
-			['Roblox', 'https://create.roblox.com/landing'],
-			['Capital One', 'http://api.nessieisreal.com/'],
-			['CodeCrafters', 'https://codecrafters.io/event/freetailhackers'],
+			// ['Roblox', 'https://create.roblox.com/landing'],
+			// ['Capital One', 'http://api.nessieisreal.com/'],
+			// ['CodeCrafters', 'https://codecrafters.io/event/freetailhackers'],
 			['Red Bull', '#'],
-			['Stand Out Stickers', 'http://hackp.ac/mlh-StandOutStickers-hackathons'],
+			// ['Stand Out Stickers', 'http://hackp.ac/mlh-StandOutStickers-hackathons'],
 		]}
 	/>
 </section>

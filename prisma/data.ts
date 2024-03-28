@@ -198,11 +198,11 @@ export const questions: (Prisma.QuestionCreateInput & { generate: () => unknown 
 	},
 	{
 		order: 5,
-		label: 'Why do you want to attend Formula Hacks?',
+		label: 'Why do you want to attend RiverHacks?',
 		type: 'PARAGRAPH',
 		required: true,
 		placeholder: 'I love hackathons!',
-		generate: () => 'I want to attend Formula Hacks because I love hackathons!',
+		generate: () => 'I want to attend RiverHacks because I love hackathons!',
 	},
 	{
 		order: 6,
@@ -229,15 +229,15 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Opening Ceremony',
 		start: dayjs.tz('2021-09-24T09:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-24T09:30:00', MY_TIMEZONE).toDate(),
-		location: 'GDC Auditorium (2.216)',
-		description: 'Welcome to Formula Hacks 2024!',
+		location: 'ACC RGC Bld 3000 Auditorium (2.216)',
+		description: 'Welcome to RiverHacks 2024!',
 		type: 'Key-Event',
 	},
 	{
 		name: 'Hacking Begins',
 		start: dayjs.tz('2021-09-24T10:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-24T10:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC',
+		location: 'ACC RGC Bld 3000',
 		description: 'Start hacking!',
 		type: 'Key-Event',
 	},
@@ -245,7 +245,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Intro to Svelte',
 		start: dayjs.tz('2021-09-24T10:30:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-24T11:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC 6.302',
+		location: 'ACC RGC Bld 3000 6.302',
 		description: 'Learn how to use Svelte, the hottest and most-loved framework in town!',
 		type: 'Workshop',
 	},
@@ -253,7 +253,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Lunch',
 		start: dayjs.tz('2021-09-24T12:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-24T13:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC Courtyard',
+		location: 'ACC RGC Bld 3000 Courtyard',
 		description: 'Delicious Chinese food from 99 Ranch!',
 		type: 'Regular-Event',
 	},
@@ -261,7 +261,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Dinner',
 		start: dayjs.tz('2021-09-24T18:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-24T19:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC Courtyard',
+		location: 'ACC RGC Bld 3000 Courtyard',
 		description: 'Delicious Indian food from Sangam Chettinad!',
 		type: 'Regular-Event',
 	},
@@ -270,7 +270,7 @@ export const events: Prisma.EventCreateInput[] = [
 		// Cross date boundaries so we can test that it shows up on both days
 		start: dayjs.tz('2021-09-24T23:45:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-25T00:15:00', MY_TIMEZONE).toDate(),
-		location: 'GDC',
+		location: 'ACC RGC Bld 3000',
 		description: 'Free food!',
 		type: 'Regular-Event',
 	},
@@ -278,7 +278,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Breakfast',
 		start: dayjs.tz('2021-09-25T08:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-25T09:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC Courtyard',
+		location: 'ACC RGC Bld 3000 Courtyard',
 		description: 'Delicious pizza from DeSano!',
 		type: 'Regular-Event',
 	},
@@ -286,7 +286,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Hacking Ends',
 		start: dayjs.tz('2021-09-25T10:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-25T10:00:00', MY_TIMEZONE).toDate(),
-		location: 'GDC',
+		location: 'ACC RGC Bld 3000',
 		description: 'Stop hacking!',
 		type: 'Key-Event',
 	},
@@ -311,7 +311,7 @@ export const events: Prisma.EventCreateInput[] = [
 		name: 'Closing Ceremony',
 		start: dayjs.tz('2021-09-25T12:00:00', MY_TIMEZONE).toDate(),
 		end: dayjs.tz('2021-09-25T12:30:00', MY_TIMEZONE).toDate(),
-		location: 'GDC Auditorium (2.216)',
+		location: 'ACC RGC Bld 3000 Auditorium (2.216)',
 		description: 'Goodbye!',
 		type: 'Key-Event',
 	},
@@ -319,20 +319,20 @@ export const events: Prisma.EventCreateInput[] = [
 
 export const faq: Prisma.InfoBoxCreateInput[] = [
 	{
-		title: 'What is Formula Hacks?',
+		title: 'What is RiverHacks?',
 		response:
-			'Formula Hacks is our beginner friendly spring hackathon only open to the University of Texas at Austin and Austin Community College students. No prior experience required and all majors welcome!',
+			'RiverHacks is our beginner friendly spring hackathon only open to Austin Community College, University of Texas Austin, and all other surrounding universities. No prior experience required and all majors welcome!',
 		category: 'FAQ',
 	},
 	{
-		title: 'Where is Formula Hacks?',
+		title: 'Where is RiverHacks?',
 		response:
-			'Formula Hacks will take place on the University of Texas at Austin campus! Hacking, judging, mini-events, and more will occur fully in-person!',
+			'RiverHacks will take place on the Austin Community College Rio Grande Campus Building 3000! Hacking, judging, mini-events, and more will occur fully in-person!',
 		category: 'FAQ',
 	},
 	{
-		title: 'When is Formula Hacks?',
-		response: 'Formula Hacks starts on March 22st, 2024 and ends on March 23rd, 2024.',
+		title: 'When is RiverHacks?',
+		response: 'RiverHacks starts on March 22st, 2024 and ends on March 23rd, 2024.',
 		category: 'FAQ',
 	},
 	{
@@ -350,13 +350,13 @@ export const faq: Prisma.InfoBoxCreateInput[] = [
 	{
 		title: 'How much money will this cost me?',
 		response:
-			"Zero. Zip. Zilch. Nada. Nothing. Gratis. It's free. Freetail Hackers provides students with Wi-Fi, meals, swag, workspace, and prizes for all of our events!",
+			"Zero. Zip. Zilch. Nada. Nothing. Gratis. It's free. ACC CS Club provides students with Wi-Fi, meals, swag, workspace, and prizes for all of our events!",
 		category: 'FAQ',
 	},
 	{
 		title: 'What’s the schedule?',
 		response:
-			'We’ll release a more detailed schedule in the coming weeks, but our event will start roughly around 9am on Friday, March 22nd and end around 6-7pm on March 23rd.',
+			'We’ll release a more detailed schedule in the coming weeks, but our event will start roughly around 9am on Saturday April 13th and end at 6pm on Saturday April 14th.',
 		category: 'FAQ',
 	},
 	{
@@ -392,7 +392,7 @@ export const faq: Prisma.InfoBoxCreateInput[] = [
 	{
 		title: 'How do I volunteer?',
 		response:
-			'We are always looking for mentors to answer student questions or workshop suggestions, as well as general volunteers to help run our event. If you want to help out at our event, shoot us an email at hello@freetailhackers.com!',
+			'We are always looking for mentors to answer student questions or workshop suggestions, as well as general volunteers to help run our event. If you want to help out at our event, shoot us an email at contact@austincs.org!',
 		category: 'FAQ',
 	},
 	{
@@ -404,7 +404,7 @@ export const faq: Prisma.InfoBoxCreateInput[] = [
 	{
 		title: 'I have more questions. Who do I contact?',
 		response:
-			"If you have further questions for us, don't hesitate to reach out to hello@freetailhackers.com",
+			"If you have further questions for us, don't hesitate to reach out to contact@austincs.org",
 		category: 'FAQ',
 	},
 	{

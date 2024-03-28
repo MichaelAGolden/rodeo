@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Register</title>
+	<title>RiverHacks | Register</title>
 </svelte:head>
 
 <div class="topographic-background">

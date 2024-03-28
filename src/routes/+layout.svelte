@@ -36,7 +36,7 @@
 	<label for="hamburgerCheckbox" id="hamburger"
 		><img
 			src="/burger_Menu.png"
-			alt="Freetail logo"
+			alt="ACC ACM logo"
 			id="hamburger-logo"
 			style="width:50px; height:20px"
 		/><b>MENU</b></label
@@ -48,7 +48,7 @@
 		style="display: none"
 	/>
 	<menu id="menu" bind:this={menu}>
-		<img src="/Freetail_bat.png" id="menu-logo" alt="Freetail logo" />
+		<img src="/ACC_ACM.png" id="menu-logo" alt="ACC ACM logo" />
 		<li>
 			<a href="/" class:active={$page.url.pathname === '/' && $page.url.hash === ''}>Home</a>
 		</li>
@@ -147,10 +147,10 @@
 	<div class="footer-flex">
 		<div class="made-with-love">
 			Made with ❤️ by <a
-				class="freetail-link"
+				class="ACC-ACM-link"
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://freetailhackers.com">Freetail Hackers</a
+				href="https://austincs.org">ACC ACM Student Chapter</a
 			>
 		</div>
 		<div class="flex-column">
@@ -158,24 +158,24 @@
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://www.instagram.com/freetailhackers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+				href="https://www.instagram.com/acc.csc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 				>Instagram</a
 			>
-			<a
+			<!-- <a
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.linkedin.com/company/freetail-hackers">LinkedIn</a
-			>
-			<a target="_blank" rel="noopener noreferrer" href="https://freetailhackers.com/discord"
-				>Discord</a
-			>
+			> -->
+			<!-- <a target="_blank" rel="noopener noreferrer" href="https://freetailhackers.com/discord"
+				>Discord</a -->
+			<!-- >
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://docs.google.com/forms/d/e/1FAIpQLSdQld-vgVLXOuIXIcUNpTFMwii_7Cu9Vqj7CVxXs3ScFsCIrg/viewform?usp=sf_link"
 				>Feedback</a
-			>
-			<a href="mailto:admin@freetailhackers.com">Contact Us</a>
+			> -->
+			<a href="mailto:contact@austincs.org">Contact Us</a>
 		</div>
 		<div class="flex-column">
 			<div class="row category">Other Hackathons</div>

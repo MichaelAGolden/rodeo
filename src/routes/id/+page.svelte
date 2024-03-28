@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Hacker ID</title>
+	<title>RiverHacks | Hacker ID</title>
 </svelte:head>
 
 <div class="overall-container">

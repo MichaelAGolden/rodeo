@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Admin - Homepage</title>
+	<title>RiverHacks | Admin - Homepage</title>
 </svelte:head>
 
 <form

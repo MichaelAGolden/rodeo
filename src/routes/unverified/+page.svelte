@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Unverified Email</title>
+	<title>RiverHacks | Unverified Email</title>
 </svelte:head>
 
 <div class="topographic-background">

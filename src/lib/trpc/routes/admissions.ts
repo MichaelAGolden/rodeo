@@ -57,7 +57,7 @@ async function releaseDecisions(ids?: string[]): Promise<void> {
 		}
 		await sendEmails(
 			decisions.map((hacker) => hacker.authUser.email),
-			'Freetail Hackers status update',
+			'ACC ACM Student Chapter status update',
 			template
 		);
 	}

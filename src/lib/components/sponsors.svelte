@@ -13,7 +13,7 @@
 
 		<!-- This code assumes that the sponsor logo is saved under /static/Sponsors/ as a PNG with the same name as the company. -->
 		<button
-			><a href="mailto:corporate@freetailhackers.com" target="_blank" rel="noopener noreferrer"
+			><a href="mailto:contact@austincs.org" target="_blank" rel="noopener noreferrer"
 				>Become a sponsor</a
 			></button
 		>
