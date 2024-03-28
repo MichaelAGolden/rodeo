@@ -134,7 +134,7 @@ deploy-production-job:
   stage: deploy-production
   environment:
     name: production
-    url: https://rodeo.freetailhackers.com
+    url: https://riverhacks.austincs.org
   when: manual
   script:
     - npx vercel pull --yes --environment=production --token=$VERCEL_TOKEN

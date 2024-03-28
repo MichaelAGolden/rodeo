@@ -147,7 +147,7 @@
 	<div class="footer-flex">
 		<div class="made-with-love">
 			Made with ❤️ by <a
-				class="ACC-ACM-link"
+				class="accacmlink"
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://austincs.org">ACC ACM Student Chapter</a
@@ -223,7 +223,7 @@
 		align-self: center;
 	}
 
-	.freetail-link {
+	.accacmlink {
 		color: #e1563f;
 		text-decoration: underline;
 	}
