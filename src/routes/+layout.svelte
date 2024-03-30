@@ -48,7 +48,7 @@
 		style="display: none"
 	/>
 	<menu id="menu" bind:this={menu}>
-		<img src="/ACC_ACM.png" id="menu-logo" alt="ACC ACM logo" />
+		<img src="/logoDark.svg" id="menu-logo" alt="ACC ACM logo" />
 		<li>
 			<a href="/" class:active={$page.url.pathname === '/' && $page.url.hash === ''}>Home</a>
 		</li>
