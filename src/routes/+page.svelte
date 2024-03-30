@@ -26,7 +26,7 @@
 <div class="topographic-background">
 	<div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img src="/Landing.svg" alt="svg" class="home-svg" />
+		<img src="/Landing-3.svg" alt="svg" class="home-svg" />
 		<div class="homepage-text">
 			<SvelteMarkdown source={data.settings.homepageText} />
 		</div>
