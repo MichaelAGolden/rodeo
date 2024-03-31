@@ -26,7 +26,7 @@
 <div class="topographic-background">
 	<div>
 		<!-- svelte-ignore a11y-img-redundant-alt -->
-		<img src="/Landing-3.svg" alt="svg" class="home-svg" />
+		<img src="/riverhacks-wideflyer.png" alt="png" class="home-svg" />
 		<div class="homepage-text">
 			<SvelteMarkdown source={data.settings.homepageText} />
 		</div>
@@ -85,7 +85,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		background: linear-gradient(to bottom, transparent 0%, #1c1c1c 100%),
+		background: linear-gradient(to bottom, transparent 0%, #2e1c1c 100%),
 			url('/Topographic Background.svg');
 		background-size: 110%;
 		position: relative;
