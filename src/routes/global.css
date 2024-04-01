@@ -10,10 +10,11 @@ html {
 :root {
 	--font-family: 'Geologica', 'Helvetica Neue', 'Arial', sans-serif;
 	--font-size: 16px;
-	--highlight-color: #f2ebd9;
-	--secondary-color: #4e656d;
-	--background-color: #202020;
-	--primary-accent: #e1563f;
+	--highlight-color: #f4faed;
+	--secondary-color: #3f81e4;
+	--background-color: #180612;
+	--secondary-background-color: #39323b;
+	--primary-accent: #e43f3f;
 }
 
 h1,
@@ -60,8 +61,8 @@ button {
 	font-family: var(--font-family);
 	height: 2.5rem;
 	font-size: var(--font-size);
-	color: white;
-	background-color: var(--primary-accent);
+	color: var(--primary-accent);
+	background-color: var(--secondary-color);
 	border: none;
 	transition: all 0.1s ease-in-out;
 }

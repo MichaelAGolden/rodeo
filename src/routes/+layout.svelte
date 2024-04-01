@@ -145,13 +145,21 @@
 
 <footer>
 	<div class="footer-flex">
-		<div class="made-with-love">
-			Made with ❤️ by <a
-				class="accacmlink"
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://austincs.org">ACC ACM Student Chapter</a
-			>
+		<div class="flex made-with-love">
+			<p>© 2024 Austin Community College Association for Computing Machinery Student Chapter</p>
+			<p>
+				This site is powered by<a href="https://freetailhackers.com">Rodeo,</a> an end to end,
+				hackathon management platform.
+
+				<br />
+				Made-with ❤️ by
+				<a
+					class="accacmlink"
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://freetailhackers.com">Freetail Hackers</a
+				>
+			</p>
 		</div>
 		<div class="flex-column">
 			<div class="row category">Links</div>
@@ -203,7 +211,7 @@
 	}
 
 	footer {
-		background-color: #404040;
+		background-color: var(--background-color);
 	}
 
 	.footer-flex {
@@ -211,7 +219,7 @@
 		justify-content: space-around;
 		margin: auto;
 		max-width: 75em;
-		color: #f2ebd9;
+		color: var(--highlight-color);
 	}
 
 	.login {
@@ -219,8 +227,7 @@
 	}
 
 	.made-with-love {
-		white-space: nowrap;
-		align-self: center;
+		align-self: left;
 	}
 
 	.accacmlink {
@@ -280,10 +287,11 @@
 	}
 
 	button {
-		background-color: #404040;
+		background-color: var(--secondary-color);
 		text-transform: uppercase;
 		font-family: 'Geologica', sans-serif;
 		font-weight: 700;
+		border-radius: 5px;
 	}
 
 	nav {
@@ -291,7 +299,7 @@
 		top: 0;
 		margin: 0;
 		width: 100vw;
-		background-color: #404040;
+		background-color: var(--background-color);
 		z-index: 99;
 	}
 
@@ -300,7 +308,7 @@
 		margin: 0;
 		padding: 0;
 		transition: all 0.5s ease-out;
-		background-color: #404040;
+		background-color: var(--background-color);
 		max-height: 0;
 		overflow: hidden;
 		width: 100%;
@@ -418,7 +426,7 @@
 		width: 100%;
 		height: 100%;
 		z-index: 9999; /* Set a high z-index to ensure the overlay appears on top */
-		background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background color */
+		background-color: rgba(183, 65, 65, 0.05); /* Semi-transparent background color */
 		display: flex;
 		justify-content: center;
 		align-items: center;
