@@ -141,13 +141,13 @@
 	.topographic-background {
 		padding-bottom: 5rem;
 		background: linear-gradient(
-				to bottom,
-				#1c1c1cff 0%,
-				transparent 30%,
-				transparent 60%,
-				#1c1c1cff 100%
-			),
-			url('/Topographic Background.svg');
+			to bottom,
+			#1c1c1cff 0%,
+			transparent 30%,
+			transparent 60%,
+			#1c1c1cff 100%
+		);
+		/* url('/Topographic Background.svg'); */
 		background-size: 110%;
 	}
 
