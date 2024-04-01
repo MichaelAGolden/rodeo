@@ -51,7 +51,7 @@
 
 	.driver-div {
 		padding: 1rem 2rem;
-		box-shadow: 4px 4px 16px 0px #00000040;
+		box-shadow: 4px 4px 16px 0px #000000;
 		border-radius: 10px;
 		margin: 5rem 0;
 	}
