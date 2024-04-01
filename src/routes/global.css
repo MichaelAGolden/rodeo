@@ -208,7 +208,7 @@ dialog button {
 	margin: 0 auto;
 	padding: 0 1rem;
 	background-color: var(--secondary-background-color);
-	color: var(--highlight-color);
+	color: var(--background-color);
 }
 
 @media (max-width: 450px) {
