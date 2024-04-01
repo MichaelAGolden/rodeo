@@ -51,7 +51,7 @@
 		box-shadow: 0 0.5rem 0.75rem black;
 	}
 
-	.background-grid {
+	/* .background-grid {
 		width: inherit;
 		height: inherit;
 		position: absolute;
@@ -69,7 +69,7 @@
 			rgba(0, 0, 0, 0.5) 60%,
 			transparent 100%
 		);
-	}
+	} */
 
 	.content-container {
 		position: relative;
