@@ -81,16 +81,6 @@
 		pointer-events: none;
 	}
 
-	.topographic-background {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		background: linear-gradient(to bottom, transparent 0%, #2e1c1c 100%),
-			url('/Topographic Background.svg');
-		background-size: 110%;
-		position: relative;
-	}
-
 	.homepage-text {
 		position: absolute;
 		top: 73%;
