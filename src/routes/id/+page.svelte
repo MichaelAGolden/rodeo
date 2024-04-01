@@ -39,6 +39,7 @@
 		justify-content: center;
 		align-items: center;
 		min-height: calc(100vh - 159px);
+		background-color: var(--secondary-background-color);
 	}
 
 	.vertical-text {
@@ -54,6 +55,7 @@
 		box-shadow: 4px 4px 16px 0px #000000;
 		border-radius: 10px;
 		margin: 5rem 0;
+		background-color: #ffffff;
 	}
 
 	.driver-div-text {
