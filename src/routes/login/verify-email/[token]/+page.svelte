@@ -10,6 +10,7 @@
 	<div class="top-margin">
 		{#if data.success}
 			<p>Your email has been successfully verified! You can close this window now.</p>
+			<p>Click <a href="/apply">here</a> to apply to the Hackathon.</p>
 		{:else}
 			<p>This verification link either never existed or expired.</p>
 		{/if}
