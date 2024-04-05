@@ -43,9 +43,9 @@
 		{#if value === ''}
 			<p class:announcement-font={useAnnouncementFont} class="empty-preview">Nothing to preview.</p>
 		{:else}
-			<div class:announcement-font={useAnnouncementFont}>
+			<p class:announcement-font={useAnnouncementFont} class="preview">
 				<SvelteMarkdown source={value} />
-			</div>
+			</p>
 		{/if}
 	</div>
 	<textarea
@@ -101,6 +101,10 @@
 	.announcement-font {
 		font-family: 'Fugaz One';
 		font-weight: 400;
+		color: #000000;
+	}
+
+	.preview {
 		color: #000000;
 	}
 </style>
