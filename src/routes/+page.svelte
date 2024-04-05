@@ -87,7 +87,11 @@
 		left: 15%;
 		color: #f2ebd9;
 		font-size: clamp(0.75rem, 2vw, 2rem);
-		max-width: 50rem;
+		max-width: 50%;
 		margin-right: 4rem;
+	}
+
+	.topographic-background {
+		position: relative;
 	}
 </style>
