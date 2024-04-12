@@ -296,7 +296,7 @@
 	}
 
 	nav {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		margin: 0;
 		width: 100vw;

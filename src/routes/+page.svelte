@@ -76,7 +76,6 @@
 
 	.home-svg {
 		width: 100vw;
-		margin-top: calc(2rem - 0.5vw);
 		user-select: none;
 		pointer-events: none;
 	}
