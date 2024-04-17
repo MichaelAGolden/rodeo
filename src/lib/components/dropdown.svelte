@@ -76,3 +76,10 @@
 		{item.label}
 	</div>
 </Select>
+
+<style>
+	:global(.svelte-select) {
+		width: 100%;
+		color: var(--secondary-background-color);
+	}
+</style>

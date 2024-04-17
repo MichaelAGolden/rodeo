@@ -6,8 +6,9 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Admissions</title>
+	<title>RiverHacks | Admissions</title>
 </svelte:head>
+
 <div class="main-content">
 	{#if data.user === null}
 		<p>Congratulations! You've read every application.</p>
@@ -34,14 +35,15 @@
 
 	#padding {
 		height: 1rem;
-		background: linear-gradient(transparent, white);
+
+		background-color: var(--secondary-background-color);
 	}
 
 	form {
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 1rem;
-		background: white;
+		background: var(--secondary-background-color);
 		padding-bottom: 1rem;
 	}
 

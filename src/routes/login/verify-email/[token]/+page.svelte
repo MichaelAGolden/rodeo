@@ -3,13 +3,14 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Verify Email</title>
+	<title>RiverHacks | Verify Email</title>
 </svelte:head>
 
 <div class="topographic-background">
 	<div class="top-margin">
 		{#if data.success}
 			<p>Your email has been successfully verified! You can close this window now.</p>
+			<p>Click <a href="/apply">here</a> to apply to the Hackathon.</p>
 		{:else}
 			<p>This verification link either never existed or expired.</p>
 		{/if}
@@ -22,7 +23,7 @@
 		flex-direction: column;
 		align-items: center;
 		background-color: #303030;
-		background-image: url('/Topographic Background.svg');
+		/* background-image: url('/Topographic Background.svg'); */
 		background-size: 110%;
 		min-height: calc(100vh - 159px);
 	}

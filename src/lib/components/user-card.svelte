@@ -38,10 +38,4 @@
 {/each}
 
 <style>
-	blockquote {
-		background: #eee;
-		padding: 0.5rem;
-		border-left: none;
-		border-left: #aaa 5px solid;
-	}
 </style>

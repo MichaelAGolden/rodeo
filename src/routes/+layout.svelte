@@ -36,7 +36,7 @@
 	<label for="hamburgerCheckbox" id="hamburger"
 		><img
 			src="/burger_Menu.png"
-			alt="Freetail logo"
+			alt="ACC ACM logo"
 			id="hamburger-logo"
 			style="width:50px; height:20px"
 		/><b>MENU</b></label
@@ -48,7 +48,7 @@
 		style="display: none"
 	/>
 	<menu id="menu" bind:this={menu}>
-		<img src="/Freetail_bat.png" id="menu-logo" alt="Freetail logo" />
+		<img src="/transparent-icon.png" id="menu-logo" alt="RiverHacks 24 Logo" />
 		<li>
 			<a href="/" class:active={$page.url.pathname === '/' && $page.url.hash === ''}>Home</a>
 		</li>
@@ -145,37 +145,45 @@
 
 <footer>
 	<div class="footer-flex">
-		<div class="made-with-love">
-			Made with ❤️ by <a
-				class="freetail-link"
-				target="_blank"
-				rel="noopener noreferrer"
-				href="https://freetailhackers.com">Freetail Hackers</a
-			>
+		<div class="flex made-with-love">
+			<p>© 2024 Austin Community College Association for Computing Machinery Student Chapter</p>
+			<p>
+				This site is powered by<a href="https://freetailhackers.com">Rodeo,</a> an end to end,
+				hackathon management platform.
+
+				<br />
+				Made-with ❤️ by
+				<a
+					class="accacmlink"
+					target="_blank"
+					rel="noopener noreferrer"
+					href="https://freetailhackers.com">Freetail Hackers</a
+				>
+			</p>
 		</div>
 		<div class="flex-column">
 			<div class="row category">Links</div>
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
-				href="https://www.instagram.com/freetailhackers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+				href="https://www.instagram.com/acc.csc?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
 				>Instagram</a
 			>
-			<a
+			<!-- <a
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://www.linkedin.com/company/freetail-hackers">LinkedIn</a
-			>
-			<a target="_blank" rel="noopener noreferrer" href="https://freetailhackers.com/discord"
-				>Discord</a
-			>
+			> -->
+			<!-- <a target="_blank" rel="noopener noreferrer" href="https://freetailhackers.com/discord"
+				>Discord</a -->
+			<!-- >
 			<a
 				target="_blank"
 				rel="noopener noreferrer"
 				href="https://docs.google.com/forms/d/e/1FAIpQLSdQld-vgVLXOuIXIcUNpTFMwii_7Cu9Vqj7CVxXs3ScFsCIrg/viewform?usp=sf_link"
 				>Feedback</a
-			>
-			<a href="mailto:admin@freetailhackers.com">Contact Us</a>
+			> -->
+			<a href="mailto:contact@austincs.org">Contact Us</a>
 		</div>
 		<div class="flex-column">
 			<div class="row category">Other Hackathons</div>
@@ -203,7 +211,7 @@
 	}
 
 	footer {
-		background-color: #404040;
+		background-color: var(--background-color);
 	}
 
 	.footer-flex {
@@ -211,7 +219,7 @@
 		justify-content: space-around;
 		margin: auto;
 		max-width: 75em;
-		color: #f2ebd9;
+		color: var(--highlight-color);
 	}
 
 	.login {
@@ -219,11 +227,10 @@
 	}
 
 	.made-with-love {
-		white-space: nowrap;
-		align-self: center;
+		align-self: left;
 	}
 
-	.freetail-link {
+	.accacmlink {
 		color: #e1563f;
 		text-decoration: underline;
 	}
@@ -241,7 +248,7 @@
 	}
 
 	button {
-		color: #e1563f;
+		color: var(--highlight-color);
 		text-decoration: none;
 		line-height: 1.5;
 		padding-left: 1rem;
@@ -251,7 +258,9 @@
 	a:hover,
 	button:hover {
 		text-decoration-line: underline;
-		text-decoration-color: var(--primary-accent);
+		text-decoration-style: solid;
+		text-decoration-color: var(--secondary-color);
+		/* background-color: var(--secondary-color); */
 		color: var(--primary-accent);
 	}
 
@@ -280,18 +289,18 @@
 	}
 
 	button {
-		background-color: #404040;
 		text-transform: uppercase;
 		font-family: 'Geologica', sans-serif;
 		font-weight: 700;
+		border-radius: 5px;
 	}
 
 	nav {
-		position: fixed;
+		position: sticky;
 		top: 0;
 		margin: 0;
 		width: 100vw;
-		background-color: #404040;
+		background-color: var(--background-color);
 		z-index: 99;
 	}
 
@@ -300,7 +309,7 @@
 		margin: 0;
 		padding: 0;
 		transition: all 0.5s ease-out;
-		background-color: #404040;
+		background-color: var(--background-color);
 		max-height: 0;
 		overflow: hidden;
 		width: 100%;
@@ -338,7 +347,8 @@
 
 	menu a:hover,
 	button:hover {
-		background-color: #303030;
+		background-color: var(--secondary-color);
+		color: var(--background-color);
 	}
 
 	.active {
@@ -418,7 +428,7 @@
 		width: 100%;
 		height: 100%;
 		z-index: 9999; /* Set a high z-index to ensure the overlay appears on top */
-		background-color: rgba(0, 0, 0, 0.05); /* Semi-transparent background color */
+		background-color: rgba(183, 65, 65, 0.05); /* Semi-transparent background color */
 		display: flex;
 		justify-content: center;
 		align-items: center;

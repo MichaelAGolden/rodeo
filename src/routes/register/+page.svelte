@@ -8,7 +8,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Register</title>
+	<title>RiverHacks | Register</title>
 </svelte:head>
 
 <div class="topographic-background">
@@ -94,7 +94,7 @@
 		flex-direction: column;
 		align-items: center;
 		background-color: #303030;
-		background-image: url('/Topographic Background.svg');
+		/* background-image: url('/Topographic Background.svg'); */
 		background-size: 110%;
 		min-height: calc(100vh - 159px);
 	}

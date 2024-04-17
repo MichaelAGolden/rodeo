@@ -2,9 +2,9 @@ import { githubAuth, googleAuth } from '$lib/lucia';
 import { trpc } from '$lib/trpc/router';
 import { redirect } from '@sveltejs/kit';
 
-export const load = async ({ locals }) => {
+export const load = async ({ url, locals }) => {
 	if (await locals.auth.validate()) {
-		throw redirect(303, '/');
+		throw redirect(303, url.searchParams.get('return_to') ?? '/');
 	}
 	return {
 		user: (await locals.auth.validate())?.user,

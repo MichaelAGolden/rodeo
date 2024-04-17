@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Hacker ID</title>
+	<title>RiverHacks | Hacker ID</title>
 </svelte:head>
 
 <div class="overall-container">
@@ -39,6 +39,7 @@
 		justify-content: center;
 		align-items: center;
 		min-height: calc(100vh - 159px);
+		background-color: var(--secondary-background-color);
 	}
 
 	.vertical-text {
@@ -51,9 +52,10 @@
 
 	.driver-div {
 		padding: 1rem 2rem;
-		box-shadow: 4px 4px 16px 0px #00000040;
+		box-shadow: 4px 4px 16px 0px #000000;
 		border-radius: 10px;
 		margin: 5rem 0;
+		background-color: #ffffff;
 	}
 
 	.driver-div-text {

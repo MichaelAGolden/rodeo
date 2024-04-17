@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Formula Hacks | Admin - Registration Questions</title>
+	<title>RiverHacks | Admin - Registration Questions</title>
 </svelte:head>
 
 <form

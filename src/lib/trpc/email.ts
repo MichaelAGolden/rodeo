@@ -32,7 +32,7 @@ export const sendEmails = async (
 		warning = `<h1>
 			WARNING: This email was sent from a testing environment.
 			Be careful when opening any links or attachments!
-			This message cannot be guaranteed to come from Freetail Hackers.
+			This message cannot be guaranteed to come from ACC ACM Student Chapter.
 			</h1>`;
 	}
 
@@ -41,7 +41,7 @@ export const sendEmails = async (
 		const emailPromises = recipients.map(async (recipient) => {
 			const email = {
 				to: recipient,
-				from: 'hello@freetailhackers.com',
+				from: 'contact@austincs.org',
 				subject: subject,
 				html: `
 					${warning}

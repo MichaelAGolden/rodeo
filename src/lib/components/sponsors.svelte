@@ -3,7 +3,6 @@
 </script>
 
 <div class="main-container">
-	<img class="background-grid" src="/Grid.png" alt="Grid Background" />
 	<div class="content-container">
 		<h1>Sponsors</h1>
 		<p>
@@ -13,7 +12,7 @@
 
 		<!-- This code assumes that the sponsor logo is saved under /static/Sponsors/ as a PNG with the same name as the company. -->
 		<button
-			><a href="mailto:corporate@freetailhackers.com" target="_blank" rel="noopener noreferrer"
+			><a href="mailto:contact@austincs.org" target="_blank" rel="noopener noreferrer"
 				>Become a sponsor</a
 			></button
 		>
@@ -41,7 +40,6 @@
 
 	.main-container {
 		position: relative;
-		background-color: #1c1c1c;
 		overflow: hidden;
 	}
 
@@ -53,7 +51,7 @@
 		box-shadow: 0 0.5rem 0.75rem black;
 	}
 
-	.background-grid {
+	/* .background-grid {
 		width: inherit;
 		height: inherit;
 		position: absolute;
@@ -71,7 +69,7 @@
 			rgba(0, 0, 0, 0.5) 60%,
 			transparent 100%
 		);
-	}
+	} */
 
 	.content-container {
 		position: relative;
